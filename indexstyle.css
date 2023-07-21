@@ -14,9 +14,23 @@ h1 {
 .recipes li {
     margin-right: 20px;
 }
+
+.recipes li a {
+    text-align: left;
+    position: relative;
+    color: white;
+    font-size: 40px;
+}
+
 .recipes li a img{
     height: 300px;
     width: 300px;
     object-fit: cover;
     filter: brightness(50%);
+}
+
+.recipes li a div {
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
 }
