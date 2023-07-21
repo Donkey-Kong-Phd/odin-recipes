@@ -7,7 +7,16 @@ h1 {
     background-color: lightgray;   
 }
 
-ul {
+.recipes {
     list-style: none;
-    line-height-step: 2;
+    display: flex;
+}
+.recipes li {
+    margin-right: 20px;
+}
+.recipes li a img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    filter: brightness(50%);
 }
