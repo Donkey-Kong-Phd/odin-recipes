@@ -1,0 +1,57 @@
+* {
+    font-size: x-large;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.description img {
+    float: left;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.description p, .description h3 {
+    float: right;
+    inline-size:60%;
+    overflow-wrap: break-word;
+}
+
+.ingredients, .steps {
+    clear: both;
+}
+
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredients ul li {
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.steps ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.steps ul li {
+    inline-size:30%;
+    overflow-wrap: break-word;
+    padding: 10px;
+    margin: 10px;
+}
