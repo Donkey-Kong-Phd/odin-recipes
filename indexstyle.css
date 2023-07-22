@@ -9,17 +9,21 @@ h1 {
 
 .recipes {
     list-style: none;
+    list-style-type: none;
+    padding: 0;
     display: flex;
 }
 
 .recipes li a img, .recipes li a div {
     margin-left: 10px;
+    font-size: large;
 }
 
 .recipes li a img {
     height: 200px;
     width: 200px;
     object-fit: cover;
+    border-radius: 10%;
 }
 
 .recipes li a {
